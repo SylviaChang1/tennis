@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+html body {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	overflow-y: scroll;
+	overflow-x: auto;
+	font-family:"宋体";
+	font-size:14px;
+	background-image:url(../pic/95429247e952475685fda278c2958323.jpg);
+	background-attachment:local;
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+#center {
+	width:800px;
+	height:600px;
+	margin:200px auto;
+	background-color:#FCFCFC;
+	
+	}
+#left {
+	width: 500px;
+	height: 600px;
+	float: left;
+	position: absolute;
+	top:200px;
+	left:20%;
+}
+#left p {
+	font-family:"微软雅黑";
+	font-size:14px;
+	text-indent:2em;
+	line-height:20px;
+}
+
+#left #slogan {
+	font-family:"华文彩云";
+	font-size:28px;
+	line-height:45px;
+	color:#41AE1C;}
+
+#visitors {
+	width:120px;
+	height:40px;
+	position:relative;
+	margin:150px auto;
+	background-color:#ACE95A;
+	border:1px #8BDD1C solid;
+	color:#FFF;
+	text-align:center;
+	font-family:"宋体";
+	font-size:22px;
+	line-height:40px;
+	-moz-border-radius:10px;/*设置边框圆角化*/
+	border-radius:10px;
+	}
+#visitors a{
+	text-decoration:none;
+	color:#FFF;}	
+#right {
+	width:300px;
+	height:600px;
+	float:right;
+	background-color:#F6F6F6;
+	position: absolute;
+	top: 200px;
+	right:20%;
+	}
+	
+#login {
+	width:240px;
+	height:400px;
+	margin:80px 30px;
+	
+	position:relative;}
+
+#refer {
+	width:235px;
+	height:45px;
+	margin:30px 0px;
+	
+	-moz-border-radius:10px;/*设置边框圆角化*/
+	border-radius:10px;
+	}
+#submit{
+	width:235px;
+	height:45px;
+	background-color:#ACE95A;
+	border:1px #8BDD1C solid;
+	color:#FFF;
+	text-align:center;
+	font-family:"宋体";
+	font-size:22px;
+	line-height:45px;
+	-moz-border-radius:10px;/*设置边框圆角化*/
+	border-radius:10px;
+	}
+#checkbox{
+	font-family:"微软雅黑";
+	font-size:14px;
+	float:left;}
+#clickRegist{
+	float:right;
+	text-decoration:underline;
+	color:#000;
+	font-family:"微软雅黑";
+	font-size:14px;
+	}
+#footer {
+	width:800px;
+	height:70px;
+	position:absolute;
+	right:20%;
+	top:820px;
+	background-color:#FCFCFC;
+	-moz-border-radius:10px;/*设置边框圆角化*/
+	border-radius:10px;
+	}
+#footer ul {
+	list-style:none;
+	text-decoration:none;
+	list-style-position:outside;
+	position:relative;
+	margin:5px auto;
+	width:600px;
+	height:25px;
+	
+	}
+#footer ul li {
+	width:80px;
+	height:25px;
+	line-height:25px;
+
+	display:inline-block;
+	position:relative;
+	font-family:"微软雅黑";
+	font-size:14px;
+	margin:0px auto;
+	}
+#footer ul li a{
+	text-decoration:none;
+	color:#000;
+	}
+#footer ul li a:hover{
+	background-color:#9C3;
+	color:#FFF;
+	}
+#footer p {
+	font-family:"微软雅黑";
+	font-size:12px;
+	text-align:center;
+	color:#000;
+	margin:0px;
+	}	

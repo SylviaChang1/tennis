@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>送餐选址</title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" type="text/css" href="chooseSendAddress.css">
+<script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://api.map.baidu.com/api?v=2.0&ak=mbLgt6OQ49mT8is4yTtzhgFK"></script>
+<script type="text/javascript" charset="utf-8" src="chooseSendAddress.js"></script>
+</head>
+
+<body>
+  <div class="content">
+    <div id="r-result">
+                请输入地址:
+      <input type="text" id="suggestId"
+      value="百度"/>
+      <input type="button" id="jumpMap" value="搜索"/>
+    </div>
+    <div id="searchResultPanel"></div>
+    <div id="allmap"></div>
+    <div style="display: none;" id="isChoose">notChoose</div>
+	<div>当前位置：<span id="positionStr"></span></div>
+  </div>
+</body>
+</html>
