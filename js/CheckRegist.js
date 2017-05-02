@@ -148,7 +148,7 @@ $(function(){
 						$.cookie("phonenumber", phonenumber);//设置cookie 名字，值
 						$.cookie("email", email);//设置cookie 名字，值
 						alert("注册成功!请牢记，用户名："+name);
-						window.location.href = "../index.html";
+						window.location.href = "login.html";
 						//alert($.cookie("name")); //根据cookie名字取到cookie值
 						//alert($.cookie("psw")); //根据cookie名字取到cookie值
 						//alert($.cookie("phonenumber")); //根据cookie名字取到cookie值

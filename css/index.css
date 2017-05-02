@@ -144,7 +144,7 @@ html,body {
 .main {
 	width: 980px;
 	height: 100%;
-	background-color: #CCFFFF;
+	/*background-color: #CCFFFF;*/
 }
 
 .main .subject {
@@ -160,7 +160,7 @@ html,body {
 	width: 650px;
 	height: 373px;
 	float: left;
-	background-color: #FF66FF;
+	/*background-color: #FF66FF;*/
 }
 
 .sub2 {

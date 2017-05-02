@@ -17,7 +17,7 @@ $(function(){
 			if (valiInput(account)){//判断非法字符
 					if($.cookie("name") == account && $.cookie("psw") == psw){
 						alert("登录成功");
-						window.location.href= "pages/personal.html";
+						window.location.href= "personal.html";
 					}else{
 						alert("账号或密码错误");
 					}
