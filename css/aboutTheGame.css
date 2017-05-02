@@ -92,7 +92,7 @@ html,body {
 }
 
 .head1 {
-	margin: 5 0 5 198;
+	margin: 5px 0px 5px 198px;
 	width: 450px;
 	height: 27px;
 }
@@ -119,7 +119,7 @@ html,body {
 }
 
 .head2 {
-	margin: 5 157 5 0;
+	margin: 5px 157px 5px 0px;
 	width: 110px;
 	height: 27px;
 }
@@ -137,17 +137,15 @@ html,body {
 .center_img {
 	width: 370px;
 	height: 75px;
-	margin: 0 0 0 198;
+	margin: 0 0 0 198px;
 	padding-top: 20px;
 }
-
-
 
 .navigation {
 	width: 980px;
 	height: 100%;
 	font-size:12px;
-	margin:0 195 0 195;
+	margin:0px 195px 0px 195px;
 	font-family:"宋体";
 	color:#454545;
 }
@@ -208,7 +206,7 @@ html,body {
 }
 
 #left_top_img {
-	margin:45 25 40 25;
+	margin:45px 25px 40px 25px;
 }
 
 .subject_left_top ul {
@@ -238,7 +236,7 @@ html,body {
 	color:#EBEBEB;
 	size:1px;
 	width:235px;
-	margin:0 0 12 0;
+	margin:0 0 12px 0;
 }
 
 .subject_left_bottom {
@@ -303,7 +301,7 @@ html,body {
 	height:10px;
 	width:500px;
 	margin:0;
-	padding:15 15 10 20;
+	padding:15px 15px 10px 20px;
 	color:#616161;
 }
 
@@ -317,9 +315,9 @@ html,body {
 }
 
 .right1_img {
-	width:220;
-	height:17;
-	margin:30 230 30 230;
+	width:220px;
+	height:17px;
+	margin:30px 230px 30px 230px;
 }
 
 .subject_right2 {
@@ -328,12 +326,12 @@ html,body {
 }
 
 #right2_img {
-	margin:30 0 30 60;
+	margin:30px 0px 30px 60px;
 	float:left;
 }
 
 .right2_div {
-	margin:30;
+	margin:30px;
 	width:310px;
 	height:240px;
 	
@@ -419,7 +417,7 @@ p {
 	width:305px;
 	height:336px;
 
-	margin:30 30 0 0;
+	margin:30px 30px 0 0;
 	float:right;
 }
 
@@ -498,7 +496,7 @@ p {
 .relation_element {
 	width: 70px;
 	height: 20px;
-	margin: 0 5 15 0;
+	margin: 0 5px 15px 0;
 	float: left;
 }
 
